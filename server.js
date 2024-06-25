@@ -8,6 +8,8 @@
 *
 * Name: Ishika Munjal Student ID: 172502213 Date: 25/06/2023
 *
+*  Published URL: https://assignment-3-omega-steel.vercel.app/
+*
 ********************************************************************************/
 const express = require('express');
 const path = require('path');
@@ -22,7 +24,7 @@ legoData.initialize()
         
 
         app.get('/', (req, res) => {
-            res.send('Assignment 2: Jayesh Yadav - 110055233');
+            res.send('Assignment 3: Ishika Munjal - 172502213');
         });
 
         app.get('/', (req, res) => {
