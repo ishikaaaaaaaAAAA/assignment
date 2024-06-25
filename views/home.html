@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link href="./public/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-white text-2xl">Lego Collection</a>
+            <div>
+                <a href="./about.html" class="text-white mr-4">About</a>
+                <div class="dropdown inline-block relative">
+                    <button class="text-white">Theme</button>
+                    <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+                        <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="/lego/sets?theme=technic">Technic</a></li>
+                        <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="/lego/sets?theme=town">Town</a></li>
+                        <li><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="/lego/sets?theme=space">Space</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto">
+        <div class="hero bg-gray-200 p-8 text-center">
+            <h1 class="text-4xl mb-4">Welcome to the Lego Collection</h1>
+            <p>Explore our extensive collection of Lego sets.</p>
+            <a href="/lego/sets" class="btn btn-primary mt-4">View All Sets</a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://cdn.rebrickable.com/media/sets/001-1.jpg" alt="Gears" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-xl">Gears</h2>
+                    <p>Released in 1965, this set includes 43 parts.</p>
+                    <a href="/lego/sets/001-1" class="btn btn-primary mt-4">View Set</a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://cdn.rebrickable.com/media/sets/0011-2.jpg" alt="Town Mini-Figures" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-xl">Town Mini-Figures</h2>
+                    <p>Released in 1979, this set includes 12 parts.</p>
+                    <a href="/lego/sets/0011-2" class="btn btn-primary mt-4">View Set</a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="https://cdn.rebrickable.com/media/sets/0012-1.jpg" alt="Classic Space" class="w-full">
+                <div class="p-4">
+                    <h2 class="text-xl">Classic Space</h2>
+                    <p>Released in 1978, this set includes 30 parts.</p>
+                    <a href="/lego/sets/0012-1" class="btn btn-primary mt-4">View Set</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
